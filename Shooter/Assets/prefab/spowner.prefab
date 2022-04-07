@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6901359881684466062
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6901359881684466060}
+  - component: {fileID: 6901359881684466063}
+  m_Layer: 0
+  m_Name: spowner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6901359881684466060
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6901359881684466062}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.3295115, y: 2.8016806, z: -7.416723}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6901359881684466063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6901359881684466062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38516c3fe61840d40b8a8a8b5ac08336, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spownPosition:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  Monster:
+  - {fileID: 2207289266485474910, guid: dbeaee03f441e4642a862bdbf20ad4f9, type: 3}
+  - {fileID: 7152828786117053307, guid: 36427fb279f8e3d4a8e364fa072ee444, type: 3}
+  - {fileID: 7303963191153507015, guid: d8d21d752bcf5c647a427659eb3cd715, type: 3}
+  - {fileID: 3863574175358338376, guid: d66d5bdff5da46841a63b2ea4c25c995, type: 3}
+  - {fileID: 1540752390450200855, guid: d1a8f9216f781144698ca5467889e3cf, type: 3}
+  - {fileID: 1129811690068347449, guid: 8de645e6cc41fec4f9fb3931d64b92bd, type: 3}
+  Monsterspondelay: 0
+  mxMonsterspon: 5
+  rbcSpown: 0
+  mxrbcSpown: 15
+  wbcSpown: 0
+  mxwbcSpown: 5
+  RBCRandom: 0
+  WBCRandom: 0
+  DefaultRandom: 0
+  DefaultMonsterRandom: 0
